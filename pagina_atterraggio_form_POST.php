@@ -1,9 +1,12 @@
 <?php
 
-$word = $_POST['parolaccia'];
-$description = $_POST['descrizione'];
-$lunghezza_stringa_descrizione = strlen($description)
+$censured = $_POST["censurare"];
+$description = $_POST["descrizione"];
 
+$lunghezza_stringa_descrizione = strlen($description);
+
+
+$censured_description = str_replace($censured , '***' , $description);
 
 ?>
 
@@ -18,14 +21,15 @@ $lunghezza_stringa_descrizione = strlen($description)
 </head>
 <body>
 
-<h1>ffff</h1>
 
- 
+  <h2>Paragrafo:</h2>
   <p>La tua descrizione è: <?php echo $description ?></p>
-  <span>Hai utilizzato <?php echo $description ?> caratteri per la tua descrizione</span>
+
+  <span>Hai utilizzato <?php echo $lunghezza_stringa_descrizione ?> caratteri per la tua descrizione</span>
 
 
-  <!-- <span>La parolaccia che hai scritto è: <?php echo $word?></span> -->
+  <h2>Paragrafo censurato:</h2>
+  <p>La tua descrizione è: <?php echo $censured_description ?></p>
   
 </body>
 </html>
