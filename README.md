@@ -16,5 +16,5 @@ Gestire il tutto con due file diversi:
 ## Svolgimento
 1. creo la cartella con il nome della repo
 2. creo/apro 2 fogli come da richiesta
-3. nel primo foglio ("form_POST.html") stampo un paragrafo (echo) e la sua lunghezza (strlen()) 
-4. nel secondo foglio ("pagina_atterraggio_form_POST.php") stampo nuovamente il paragrafo e la sua lunghezza con la sostituzione di 3 *** della parola che voglio censurare (str_replace).
+3. nel primo foglio ("form_POST.html") predispongo un form con 2 input
+4. nel secondo foglio ("pagina_atterraggio_form_POST.php") stampo un paragrafo (echo) e la sua lunghezza (strlen()) e stampo nuovamente il paragrafo e la sua lunghezza con la sostituzione di 3 *** della parola che voglio censurare (str_replace).
