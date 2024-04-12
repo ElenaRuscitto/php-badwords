@@ -12,6 +12,19 @@
 <body>
   <div class="container">
     <h1>ciao</h1>
+
+    <form class="row g-3" action="pagina_atterraggio_form_POST.php" method="POST">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Scrivi una parolaccia:</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Scrivi una parolaccia" name="parolaccia">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Scrivi una descrizione di te:</label>
+        <textarea type="text" class="form-control" id="exampleFormControlInput1" placeholder="Scrivi una descrizione" name="descrizione"></textarea>
+      </div>
+
+      <div class="btn btn-primary w-auto ">Invia</div>
+    </form>
   </div>
 </body>
 </html>
