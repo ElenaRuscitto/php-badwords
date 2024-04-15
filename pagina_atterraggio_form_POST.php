@@ -25,7 +25,7 @@ $censured_description = str_replace($censured , '***' , $description);
   <h2>Paragrafo:</h2>
   <p>La tua descrizione è: <?php echo $description ?></p>
 
-  <span>Hai utilizzato <?php echo $lunghezza_stringa_descrizione ?> caratteri per la tua descrizione</span>
+  <h4>Hai utilizzato <?php echo $lunghezza_stringa_descrizione ?> caratteri per la tua descrizione</h4>
 
 
   <h2>Paragrafo censurato:</h2>
